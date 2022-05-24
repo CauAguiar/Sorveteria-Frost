@@ -29,6 +29,13 @@ header {
     margin-right: auto;
 }
 
+#logo a {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	width: 140px;
+}
+
 
 .midias-sociais-inicio-twitter {
 	position: absolute;
@@ -144,7 +151,7 @@ header {
 .segundo .h3-preto {
 	position: absolute;
 	left: 69%;
-	bottom: 61%;
+	top: 37%;
 	transform: translateX(-50%);
  
 }
@@ -152,7 +159,7 @@ header {
 .segundo .h4-preto {
 	position: absolute;
   	left: 69%;
-  	bottom: 56%;
+  	top: 42%;
 	transform: translateX(-50%);
 
 }
@@ -160,13 +167,13 @@ header {
 .segundo .p-preto {
 	position: absolute;
 	width: 15%;
-  	left: 69%;
-  	bottom: 42%;
+  	left: 70%;
+  	top: 52%;
 	transform: translateX(-50%);
 }
 
 .h3-preto {
-	font-size: 40px;
+	font-size: clamp(5px, 2vw, 40px);
 	text-transform: uppercase;
 	letter-spacing: 1.9px;
 	color: black;
@@ -174,14 +181,14 @@ header {
 
 .h4-preto {
 	font-family: 'Dancing Script', cursive;
-	font-size: 26px;
+	font-size: clamp(10px, 2vw, 26px);
 	letter-spacing: 0px;
 	color: black;
 	font-weight: bold;
 }
 
 .p-preto {
-	font-size: clamp(14px, 2vw, 17px);
+	font-size: clamp(9px, 1vw, 21px);
 	color: black;
 }
 
@@ -193,7 +200,7 @@ header {
 	background-size: 100%;
 }
 
-.parallax-inner{
+.parallax-inner {
 	padding-top: 19%;
 	padding-bottom: 19%;
 }
@@ -225,4 +232,10 @@ header {
 	.abas li:first-child {
 		margin: 0 0 0 0;
 	}
+
+	.segundo .p-preto {
+		width: 20%;
+	}
+
+
 }
