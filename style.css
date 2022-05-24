@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@800&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.endereco {
+	background: #000000;
+	color: white;
+	font-size: clamp(14px, 2vw, 17px);
+	text-align: center;
+	letter-spacing: 0.10em;
+	width: auto;
+	padding: 17px 0 18px 0;
+}
+
+header {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 100%;
+	position: fixed;
+	height: 64px;
+	z-index: 99;
+}
+
+#logo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.midias-sociais-inicio-twitter {
+	position: absolute;
+	top: -9px;
+	right: 0;
+    transform: scale(0.45);
+    margin: 0 0 0 -5em;
+}
+
+.midias-sociais-inicio-insta {
+	position: absolute;
+	top: -9px;
+	right: 40px;
+    transform: scale(0.45);
+    margin: 0 0 0 -5em;
+}
+
+.abas {
+	position: absolute;
+	width: 100%;
+	top: 22px;
+	right: 0;
+}
+
+.abas li {
+	display: inline;
+	margin: 0 0 0 5em;
+}
+
+.abas li a {
+	font-size: clamp(20px, 2vw, 25px);
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.abas a img {
+	transform: scale(0.2);
+	margin: 0 0 0 2em;
+}
+
+.margin{
+	margin: 75% 0;
+}
+
+/* .parallax {
+	background: url("cones_fundo.jpg")
+		repeat fixed 100%;
+}
+
+.parallax-inner{
+	padding-top: 30%;
+	padding-bottom: 30%;
+}
+*/
+
+#principal-id{
+	display: inline-block;
+}
+
+#banner{
+	width: 100%;
+}
+
+.principal{
+	position: relative;
+	font-size: 0;
+}
+
+.principal .h3-branco {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+  	top: 40%;
+}
+
+.principal .h2-branco{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+  	left: 50%;
+	transform: translateX(-50%);
+  	top: 50%;
+}
+
+.h3-branco {
+	font-size: clamp(20px, 3vw, 40px);
+	text-transform: uppercase;
+	letter-spacing: 1.9px;
+	color: white;
+}
+
+
+.h2-branco {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	line-height: 1em; 
+	font-size: clamp(1.75rem, 6vw, 110px);
+	color: white;
+	letter-spacing: 0.1em;
+}
+
+.segundo {
+	font-size: 0;
+	width: 100%;
+	position: relative;
+}
+
+.cones3 {
+	width: 50%;
+}
+
+.segundo .h3-preto {
+	position: absolute;
+	left: 69%;
+	bottom: 61%;
+	transform: translateX(-50%);
+ 
+}
+
+.segundo .h4-preto {
+	position: absolute;
+  	left: 69%;
+  	bottom: 56%;
+	transform: translateX(-50%);
+
+}
+
+.segundo .p-preto {
+	position: absolute;
+	width: 15%;
+  	left: 69%;
+  	bottom: 42%;
+	transform: translateX(-50%);
+}
+
+.h3-preto {
+	font-size: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1.9px;
+	color: black;
+}
+
+.h4-preto {
+	font-family: 'Dancing Script', cursive;
+	font-size: 26px;
+	letter-spacing: 0px;
+	color: black;
+	font-weight: bold;
+}
+
+.p-preto {
+	font-size: clamp(14px, 2vw, 17px);
+	color: black;
+}
+
+.terceiro {
+	position: relative;
+	width: 100%;
+	background: url("sorbet.png")
+		repeat fixed 100%;
+	background-size: 100%;
+}
+
+.parallax-inner{
+	padding-top: 19%;
+	padding-bottom: 19%;
+}
+
+.terceiro .h3-branco {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+  	top: 30%;
+}
+
+
+.terceiro .h2-branco {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+  	left: 50%;
+	transform: translateX(-50%);
+  	top: 40%;
+}
+
+@media screen and (max-width: 1160px){
+
+	.abas {
+		position: relative;
+		text-align: center;
+	}
+
+	.abas li:first-child {
+		margin: 0 0 0 0;
+	}
+}
