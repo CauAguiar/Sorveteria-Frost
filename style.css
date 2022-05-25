@@ -314,6 +314,15 @@ header {
 	font-size: 0;
 	width: 100%;
 	position: relative;
+	background: url("zyro-image.png")
+		repeat fixed 100%;
+	background-size: 170%;
+}
+
+.parallax-inner2 {
+	padding-top: 0%;
+	padding-bottom: 0%;
+	height: 90%;
 }
 
 .sorvete-fim {
@@ -354,20 +363,117 @@ footer {
     margin-bottom: 80px;
 }
 
+.endereco-fim {
+
+}
+
 .h3-cinza {
 	font-size: clamp(20px, 2vw, 25px);
 	text-transform: uppercase;
 	letter-spacing: 1.9px;
-	color: gray;
+	color: #d8d8d8;
 	
 }
 
-.novidades {
+.p-cinza {
+	font-size: clamp(9px, 1vw, 21px);
+	color: #d8d8d8;
+}
+
+
+
+.novidades-fim {
 	/*height: 220px;
 	width: 380px;*/
 	position: absolute;
-	left: 100%;
+	left: 80%;
+	top: 26%;
 }
+
+/* Input do site -> uiverse.io feito por @alexruix */
+
+.novidades-fim label {
+	display: block;
+  	margin-bottom: .3rem;
+  	transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input {
+  width: 348px;
+  height: 44px;
+  background-color: white;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 20px;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: white;
+}
+
+.input-group:hover .label, .input:focus {
+  color: #05060fc2;
+}
+
+/* Botão do site -> uiverse.io feito por @Custyyyy */
+
+#bottone5 {
+ align-items: center;
+ background-color: #FFFFFF;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+ border-radius: .25rem;
+ box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+ box-sizing: border-box;
+ color: black;
+ cursor: pointer;
+ display: inline-flex;
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ letter-spacing: 1.9px;
+ font-size: 25px;
+ font-weight: 600;
+ text-transform: uppercase;
+ justify-content: center;
+ line-height: 1;
+ min-height: 3rem;
+ padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+ text-decoration: none;
+ transition: all 250ms;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ vertical-align: baseline;
+ width: 380px;
+ margin-top: 10px;
+}
+
+#bottone5:hover,
+#bottone5:focus {
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+ color: rgba(0, 0, 0, 0.65);
+}
+
+#bottone5:hover {
+ transform: translateY(-1px);
+}
+
+#bottone5:active {
+ background-color: #F0F0F1;
+ border-color: rgba(0, 0, 0, 0.15);
+ box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+ color: rgba(0, 0, 0, 0.65);
+ transform: translateY(0);
+}
+
+
+
+
+
 
 @media screen and (max-width: 1160px){
 
