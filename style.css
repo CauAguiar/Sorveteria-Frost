@@ -364,7 +364,8 @@ footer {
 }
 
 .endereco-fim {
-
+	width: 200px;
+	margin-bottom: 10px;
 }
 
 .h3-cinza {
@@ -380,14 +381,23 @@ footer {
 	color: #d8d8d8;
 }
 
+.contato-fim {
+	width: 200px;
+	margin-bottom: 10px;
+}
 
+.horarios-fim {
+	width: 200px;
+	margin-bottom: 10px;		
+}
 
 .novidades-fim {
 	/*height: 220px;
 	width: 380px;*/
 	position: absolute;
-	left: 80%;
+	left: clamp(35%, 50vw, 80%);;
 	top: 26%;
+	margin-right: auto;
 }
 
 /* Input do site -> uiverse.io feito por @alexruix */
@@ -399,8 +409,11 @@ footer {
 }
 
 .input {
-  width: 348px;
-  height: 44px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+  width: clamp(30px, 20vw, 348px);
+  height:clamp(20px, 2vw, 44px);
   background-color: white;
   border-radius: .5rem;
   padding: 0 1rem;
@@ -423,6 +436,7 @@ footer {
 /* Botão do site -> uiverse.io feito por @Custyyyy */
 
 #bottone5 {
+	position: absolute;
  align-items: center;
  background-color: #FFFFFF;
  border: 1px solid rgba(0, 0, 0, 0.1);
@@ -447,29 +461,13 @@ footer {
  -webkit-user-select: none;
  touch-action: manipulation;
  vertical-align: baseline;
- width: 380px;
- margin-top: 10px;
+ width: clamp(30px, 20vw, 380px);;
+ margin-top: clamp(30px, 3vw, 70px);;
 }
 
-#bottone5:hover,
-#bottone5:focus {
- border-color: rgba(0, 0, 0, 0.15);
- box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
- color: rgba(0, 0, 0, 0.65);
+.copyright {
+	width: 500px;
 }
-
-#bottone5:hover {
- transform: translateY(-1px);
-}
-
-#bottone5:active {
- background-color: #F0F0F1;
- border-color: rgba(0, 0, 0, 0.15);
- box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
- color: rgba(0, 0, 0, 0.65);
- transform: translateY(0);
-}
-
 
 
 
