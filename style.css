@@ -479,11 +479,6 @@ footer .h3-cinza {
 
 @media screen and (max-width: 1160px){
 
-	#banner {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
 	.abas {
 		position: relative;
 		text-align: center;
