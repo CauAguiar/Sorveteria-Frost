@@ -376,6 +376,10 @@ footer {
 	
 }
 
+footer .h3-cinza {
+	margin-bottom: 3px;
+}
+
 .p-cinza {
 	font-size: clamp(9px, 1vw, 21px);
 	color: #d8d8d8;
@@ -474,6 +478,15 @@ footer {
 
 
 @media screen and (max-width: 1160px){
+
+	#banner, .principal, .segundo, .terceiro, .quarto, .quinto, .sexto, .setimo, .oitavo, .coletanea, .sorvete-fim, .sobremesa, .sorveteria, .cones3 {
+		object-fit: none;
+	}
+
+	#banner {
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	.abas {
 		position: relative;
