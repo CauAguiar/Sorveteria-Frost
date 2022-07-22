@@ -4,7 +4,7 @@
 
 # Projeto de criação de website
 ### 👩‍💻 Meu primeiro projeto utilizando HTML5 E CSS3! 👩‍💻 
-* GitHub Page -> sorveteriafrost.github.io
+* GitHub Page -> [sorveteriafrost.github.io](https://cauaguiar.github.io/Sorveteria-Frost/)
 
 ### ℹ️ Sobre esse projeto:
 * Durante o curso Oracle ONE Next Education + Alura me foi introduzido a noção da criação da página Web. Para aplicar os conhecimentos que aprendi e simultaneamente aprender mais sobre as linguagens, me propus o desafio de criar um site de sorveteria.
