@@ -23,4 +23,5 @@
 * Utilizei o transform: translateX(-50%); que vi na internet e foi uma mão na roda para resolver meus problemas em mover elementos com position: absolute, mas apesar disso notei que há problemas em sua utilização quando aplicado em botões/inputs onde há transitions.
 * Dificuldade em entender width:auto e suas aplicações, e também o conceito de container/caixa.
 * Ainda não entendi o que é viewport e como utilizar a escala correta.
+* No header eu colocaria display: flex; e o resto do site display grid
 
