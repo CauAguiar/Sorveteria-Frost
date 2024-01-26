@@ -10,6 +10,7 @@
 * Durante o curso Oracle ONE Next Education + Alura me foi introduzido a noção da criação da página Web. Para aplicar os conhecimentos que aprendi e simultaneamente aprender mais sobre as linguagens, me propus o desafio de criar um site de sorveteria.
 * Estabelecido o desafio, criei a marca visual "Frost" com a fonte Vendetta (Uso Não-Comercial) e utilizei de imagens que não possuo propriedade intelectual, apenas para fins educativos. 
 * Agradeço a @Custyyyy e @alexruix por terem disponibilizado o CSS de seus botões/inputs.
+* Utilizei como base um template da plataforma Wix como objetivo de realizar uma cópia mais próxima possível.
 
 ### 💻Tecnologias usadas:
 * HTML5
